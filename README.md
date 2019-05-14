@@ -5,7 +5,7 @@
 - 堆一般有两种样子，小根堆和大根堆，分别对应第二个性质中的“堆顶最大”“堆顶最小”，对于大根堆而言，任何一个非根节点，它的优先级都小于堆顶，对于小根堆而言，任何一个非根节点，它的优先级都大于堆顶（这里的根就是堆顶啦qwq）
 
 #### 来一张图了解一下堆（这里是大根堆）（原谅丑陋无比的图）
-{% asset_img erchadui.png %}
+![](https://www.guotzh.com/2019/05/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8B%E4%BA%8C%E5%8F%89%E5%A0%86/erchadui.png)
 <!-- more -->
 #### 最大堆是一个完全二叉树，可用数组存放如下，满足以下条件
 
@@ -157,7 +157,7 @@ print(data)
 ```swift
 [99,96,87,93,60,72,84,90,45,51,57,39,69,75,81,48,63,9,42,6,24,21,54,3,30,15,66,12,36,33,78,0,27,18,]
 ```
-{% asset_img  dayinjieguoyanzhengzuidadui.png %}
+![](https://www.guotzh.com/2019/05/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8B%E4%BA%8C%E5%8F%89%E5%A0%86/dayinjieguoyanzhengzuidadui.png)
 
 ### 扩展 
 ```swift
@@ -219,4 +219,4 @@ print(data)
 90
 [87,63,84,48,60,72,81,27,45,51,57,39,69,75,78,0,18,9,42,6,24,21,54,3,30,15,66,12,36,33,]
 ```
-{% asset_img  yichuzuidazhidezuidadui.png %}
+![](https://www.guotzh.com/2019/05/14/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8B%E4%BA%8C%E5%8F%89%E5%A0%86/yichuzuidazhidezuidadui.png)
